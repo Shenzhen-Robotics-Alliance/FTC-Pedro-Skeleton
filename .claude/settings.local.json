@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:pedropathing.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(ls *.md)",
+      "Bash(xargs grep:*)",
+      "Bash(cd /tmp)",
+      "Bash(cp \"/c/Users/ltcc4/.gradle/caches/modules-2/files-2.1/org.ftclib.ftclib/core/2.1.1/ae850c1b76de290c392f3da12a1be1ad407e751d/core-2.1.1.aar\" core.zip)",
+      "Bash(unzip -o core.zip classes.jar -d .)",
+      "Bash(jar tf:*)",
+      "Bash(javap -classpath classes.jar com.arcrobotics.ftclib.command.button.GamepadButton)",
+      "Bash(javap -classpath classes.jar com.arcrobotics.ftclib.gamepad.GamepadEx)",
+      "Bash(javap -classpath classes.jar com.arcrobotics.ftclib.command.button.Button)",
+      "Bash(javap -classpath \"/c/Users/ltcc4/.gradle/caches/modules-2/files-2.1/com.pedropathing/core/2.1.1/e5fcfb9494f12b71031b79b3d7a69ef0a3426296/core-2.1.1.jar\" com.pedropathing.follower.Follower)",
+      "Bash(javap -classpath \"/c/Users/ltcc4/.gradle/caches/modules-2/files-2.1/com.pedropathing/core/2.1.1/e5fcfb9494f12b71031b79b3d7a69ef0a3426296/core-2.1.1.jar\" com.pedropathing.paths.PathBuilder)",
+      "Bash(javap -classpath \"/c/Users/ltcc4/.gradle/caches/modules-2/files-2.1/com.pedropathing/core/2.1.1/e5fcfb9494f12b71031b79b3d7a69ef0a3426296/core-2.1.1.jar\" com.pedropathing.geometry.BezierLine)",
+      "Bash(javap -classpath \"/c/Users/ltcc4/.gradle/caches/modules-2/files-2.1/com.pedropathing/core/2.1.1/e5fcfb9494f12b71031b79b3d7a69ef0a3426296/core-2.1.1.jar\" com.pedropathing.geometry.BezierCurve)",
+      "Bash(javap -classpath \"/c/Users/ltcc4/.gradle/caches/modules-2/files-2.1/com.pedropathing/core/2.1.1/e5fcfb9494f12b71031b79b3d7a69ef0a3426296/core-2.1.1.jar\" com.pedropathing.geometry.Pose)"
+    ]
+  }
+}
